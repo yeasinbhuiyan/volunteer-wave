@@ -1,4 +1,4 @@
-import { FaArrowRight, FaFacebook, FaGithub, FaGoogle } from 'react-icons/Fa';
+import { FaArrowRight, FaFacebook, FaGithub, FaGoogle } from 'react-icons/fa';
 import './Footer.css'
 
 const Footer = () => {
