@@ -45,6 +45,7 @@ const Footer = () => {
                         <input className='p-3 bg-black text-gray-400 rounded' type="email" name="email" placeholder='Enter Your Email' id="" />
                         <button className='p-4 btn-primary rounded-xl'>
                             <FaArrowRight></FaArrowRight>
+                            back
                             
                         </button>
                     </div>

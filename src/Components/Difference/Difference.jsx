@@ -11,12 +11,12 @@ const Difference = () => {
                 <Image width='100%' height='100%' src={img1}></Image>
             </div>
             <div>
-                <h1 className='font-bold text-3xl'>How We're Making <br /> a difference</h1>
+                <h1 className='font-bold text-3xl'>How We&apos;re Making <br /> a difference</h1>
                 <ul className='space-y-5 p-8'>
                     <li className='text-sm font-semibold'>Highlight the partnerships and collaborations your organization has established with local communities, nonprofits, and other stakeholders. Emphasize how these partnerships enable you to maximize the effectiveness of your volunteer efforts and create a more significant impact together.</li>
                     <li className='text-sm font-semibold'>Showcase a variety of projects and initiatives your organization has undertaken to address critical social, environmental, or humanitarian issues. Discuss the specific goals, objectives, and outcomes of these projects, demonstrating the tangible difference they have made in the communities you serve.</li>
                     <li className='text-sm font-semibold'>Explain how Volunteer Wave goes beyond individual projects to empower communities for long-term sustainability. Discuss any capacity-building initiatives, skills training programs, or local empowerment projects that your organization supports, highlighting how these efforts create a ripple effect of positive change.</li>
-                    <li className='text-sm font-semibold'>Share how Volunteer Wave measures and evaluates the impact of its projects and initiatives. Discuss the metrics you use to track progress and showcase the positive outcomes achieved. This could include the number of individuals or families assisted, the environmental impact, or any other relevant metrics that demonstrate your organization's success.</li>
+                    <li className='text-sm font-semibold'>Share how Volunteer Wave measures and evaluates the impact of its projects and initiatives. Discuss the metrics you use to track progress and showcase the positive outcomes achieved. This could include the number of individuals or families assisted, the environmental impact, or any other relevant metrics that demonstrate your organization&apos;s success.</li>
                 </ul>
             </div>
 
