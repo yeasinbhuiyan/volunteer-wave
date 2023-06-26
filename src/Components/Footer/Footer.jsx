@@ -1,4 +1,4 @@
-import { FaArrowRight, FaFacebook, FaGithub, FaGoogle } from 'react-icons/fa';
+// import { FaArrowRight, FaFacebook, FaGithub, FaGoogle } from 'react-icons/fa';
 import './Footer.css'
 
 const Footer = () => {
@@ -44,16 +44,16 @@ const Footer = () => {
                     <div className='flex items-center'>
                         <input className='p-3 bg-black text-gray-400 rounded' type="email" name="email" placeholder='Enter Your Email' id="" />
                         <button className='p-4 btn-primary rounded-xl'>
-                            <FaArrowRight></FaArrowRight>
+                            {/* <FaArrowRight></FaArrowRight> */}
                             back
                             
                         </button>
                     </div>
-                    <div className='gap-4 flex text-2xl text-black mt-5'>
+                    {/* <div className='gap-4 flex text-2xl text-black mt-5'>
                         <FaGithub></FaGithub>
                         <FaGoogle></FaGoogle>
                         <FaFacebook></FaFacebook>
-                    </div>
+                    </div> */}
                 </div>
             </footer>
                
