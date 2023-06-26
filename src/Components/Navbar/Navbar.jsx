@@ -39,7 +39,7 @@ const Navbar = () => {
 
     // </>
     return (
-        <div className="navbar fixed z-10  bg-gradient-to-r md:px-5 bg-opacity-30  text-white ">
+        <div className="navbar  bg-gradient-to-r md:px-5 bg-opacity-30  text-white ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -72,7 +72,7 @@ const Navbar = () => {
 
 
 
-                    <h1 className="font-bold flex text-black items-center w-full"><span className="text-2xl text-gradient flex items-center">  Volunteer  </span>  <sub className="font-mono md:w-0 w-1 text-sm ml-1"><small>Wave</small></sub></h1>
+                    <h1 className="font-bold flex text-black items-center w-full"><span className="text-2xl text-green-700 flex items-center">  Volunteer  </span>  <span className="ms-2">Wave</span></h1>
                 </div>
             </div>
 

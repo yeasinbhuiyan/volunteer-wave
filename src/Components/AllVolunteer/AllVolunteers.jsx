@@ -21,9 +21,9 @@ const AllVolunteers = () => {
     return (
 
         <>
-            <div className='py-20'>
+            <div className='py-32'>
 
-                <Marquee>
+                <Marquee speed={50} >
                     {
                         allVolunteers.map(volunteer => <AllVolunteersCard key={volunteer.title} volunteer={volunteer}></AllVolunteersCard>)
                     }
