@@ -1,18 +1,18 @@
-// import { FaArrowRight, FaFacebook, FaGithub, FaGoogle } from 'react-icons/Fa';
+import { FaArrowRight, FaFacebook, FaGithub, FaGoogle } from 'react-icons/Fa';
 import './Footer.css'
 
 const Footer = () => {
     return (
-        <>
-            <footer className="footer footer-container   p-10 py-20 ">
+        <div className='footer-container'>
+            <footer className="footer   p-10 py-20 ">
                 <div>
 
 
-                    <h1 className="font-bold text-black flex items-center mb-4  top-8 "><span className="text-2xl flex items-center text-green-700 font-bold">
+                    <h1 className="font-bold text-black flex items-center   top-8 "><span className="text-2xl flex items-center text-green-700 font-bold">
                         {/* TODO   */}
                         {/* <img className="w-6 mr-2" src={logo} alt="" /> */}
                         Volunteer </span>  <span className=' ms-2'> Wave</span> </h1>
-                    <p className='text-sm font-lg text-black font-semibold w-56'>Unleash your summer potential at Blitz Camp! Elevate your sports skills and academic knowledge in a supportive environment. Join us</p>
+                    <p className='text-sm font-lg text-black font-semibold w-56'>Connecting volunteers with purposeful opportunities. Empowering communities. Creating positive change. Join Volunteer Wave and make a difference today.</p>
                 </div>
 
 
@@ -44,28 +44,27 @@ const Footer = () => {
                     <div className='flex items-center'>
                         <input className='p-3 bg-black text-gray-400 rounded' type="email" name="email" placeholder='Enter Your Email' id="" />
                         <button className='p-4 btn-primary rounded-xl'>
-                            {/* <FaArrowRight></FaArrowRight> */}
-                            Send
+                            <FaArrowRight></FaArrowRight>
+                            
                         </button>
                     </div>
-                    {/* <hr  className='text-gray'/> */}
-                    {/* <div className='gap-4 flex text-2xl text-black mt-5'>
+                    <div className='gap-4 flex text-2xl text-black mt-5'>
                         <FaGithub></FaGithub>
                         <FaGoogle></FaGoogle>
                         <FaFacebook></FaFacebook>
-                    </div> */}
+                    </div>
                 </div>
             </footer>
-
-
-            {/* <div>
-                <footer className='px-4 divide-y  text-gray-800 relative bottom-0 left-0'>
-                    <div className='py-6 text-sm text-center text-gray-400'>
-                        © 2023 nextPage Inc. All rights reserved.
+               
+             <div>
+                <div className='px-4 divide-y  text-gray-800 relative bottom-0 left-0'>
+                    <div className='py-6 text-sm text-center text-black'>
+                        © 2023 Volunteer Wave. All rights reserved.
                     </div>
-                </footer>
-            </div> */}
-        </>
+                </div>
+            </div>
+
+        </div>
     );
 };
 
