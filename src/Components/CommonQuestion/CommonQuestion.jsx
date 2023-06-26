@@ -17,7 +17,7 @@ const CommonQuestion = () => {
         <hr />
         </div>
     </div>
-            <div className='lg:grid mt-10 lg:grid-cols-2 p-10 mx-auto flex flex-col-reverse '>
+            <div className='lg:grid mb-28 mt-10 lg:grid-cols-2 p-10 mx-auto flex flex-col-reverse '>
                 <div>
 
                     <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-100 rounded">

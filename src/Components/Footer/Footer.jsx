@@ -25,9 +25,9 @@ const Footer = () => {
                 </div>
                 <div>
                     <span className="text-black font-bold text-xl">Services</span>
-                    <a className="link text-black link-hover">Shipping & Delivery</a>
-                    <a className="link text-black link-hover">Online Delivery</a>
-                    <a className="link text-black link-hover">Toy Marketing</a>
+                    <a className="link text-black link-hover">Blood Donation</a>
+                    <a className="link text-black link-hover">Online Donation</a>
+                    <a className="link text-black link-hover">Volunteer</a>
                     <a className="link text-black link-hover">Help Center</a>
                 </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
                     <span className="text-black font-bold text-xl">About</span>
                     <a className="link text-black link-hover">About us</a>
                     <a className="link text-black link-hover">Contact</a>
-                    <a className="link text-black link-hover">Toys Information</a>
+                    <a className="link text-black link-hover">Volunteer Information</a>
                     <a className="link text-black link-hover">Press Contacts</a>
                 </div>
 
