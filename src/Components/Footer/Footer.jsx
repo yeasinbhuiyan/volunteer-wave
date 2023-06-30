@@ -43,9 +43,9 @@ const Footer = () => {
                     <span className="text-black font-bold text-xl">Subscribe</span>
                     <div className='flex items-center'>
                         <input className='p-3 bg-black text-gray-400 rounded' type="email" name="email" placeholder='Enter Your Email' id="" />
-                        <button className='p-4 btn-primary rounded-xl'>
+                        <button className='p-3 btn-primary rounded-xl'>
                             {/* <FaArrowRight></FaArrowRight> */}
-                            back
+                            Send
                             
                         </button>
                     </div>
