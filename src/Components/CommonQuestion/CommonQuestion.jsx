@@ -13,7 +13,7 @@ const CommonQuestion = () => {
             <div className='mt-10 text-center mx-auto w-1/3'>
         <div>
         <hr/>
-        <h1 className='text-center font-semibold text-3xl py-3'>Common Question</h1>
+        <h1 className='text-center font-semibold text-2xl md:text-3xl py-3'>Common Question</h1>
         <hr />
         </div>
     </div>
