@@ -6,7 +6,6 @@ import Image from 'next/image';
 const Difference = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 md:p-20 p-10 md:space-x-16'>
-            {/* <img className='w-96 h-96' src={img1} alt="" /> */}
             <div className='mx-auto'>
                 <Image width='100%' height='100%' src={img1}></Image>
             </div>
